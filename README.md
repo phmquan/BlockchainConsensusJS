@@ -1,4 +1,4 @@
-# BlockchainJS
+# BlockchainConsensusJS
 
 This project is an implementation of the essence of a Blockchain. It demonstrates the main aspects and the challenge of a Blockchain as a distributed ledger.
 
@@ -17,7 +17,7 @@ BlockchainJS
     |-- example-poa.js
     |-- example-pos.js
     |-- example-pow.js
-    |--example-dpos.js
+    |-- example-dpos.js
 ```
 
 ## What is a Blockchain?
@@ -30,7 +30,7 @@ Blockchain
     {
         "block": 0,
         "previousHash": "0",
-        "timestamp": "01/01/2010",
+        "timestamp": "08/06/2024",
         "transactions": "GenesisBlock",
         "hash": "c089b45f1bd2411f615e2d75eb6578488385199477c18c4022f8273ca557abfe",
         "nonce": 0
@@ -51,9 +51,6 @@ Blockchain
     }
 ]
 
-## What is consensus and why is it important?
-
-The best known implementations of a blockchain are in the form of a **distributed ledger** (Bitcoin, Ethereum etc.). Each participant can hold a copy of the ledger. There is no centralized database, no instances like a database admin or super user which can garantee the validity across the peers, but also could manipulate blocks retroactively. It may even be that the blockchain grows differently at different nodes. How a valid block is created must be decided amongst the participants of the blockchain. Because anybody can submit blocks (even false ones, see [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)), the *real* blockchain must be determined by specific consensus algorithms. 
 
 ## How to use this project
 

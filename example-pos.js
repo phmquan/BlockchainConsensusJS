@@ -25,7 +25,7 @@ proofofstake.validators.forEach(function(validator){
 
 console.log("-".repeat(repeat_lines))
 console.log('\nFirst Transactions created...\n');
-blockchain.createTransaction(new Transaction(Participants.accounts()[0][0],Participants.accounts()[1][0],100));
+blockchain.createTransaction(new Transaction(Participants.accounts()[0][0],Participants.accounts()[1][0],50));
 blockchain.createTransaction(new Transaction(Participants.accounts()[1][0],Participants.accounts()[0][0],50));
  
 console.log("-".repeat(repeat_lines))
