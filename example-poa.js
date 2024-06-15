@@ -7,7 +7,7 @@ repeat_lines = 50;
 console.log("-".repeat(repeat_lines))
 console.log("New Blockchain started with Proof of Authority")
 console.log("-".repeat(repeat_lines))
-console.log("\Authorities selected...");
+console.log("\nAuthorities selected...");
 let authorities = Participants.nodes();
 console.log("-".repeat(repeat_lines))
 

@@ -61,7 +61,6 @@ class Blockchain {
             this.chain.push(block);
             this.pendingTransactions = [];
         } else if (this.consensus === 'dpos') {
-            // Ensure the DPoS instance is using the correct block
             this.dpos.block = block;
             block = this.dpos.generateBlock();
             block.block = this.chain.length;

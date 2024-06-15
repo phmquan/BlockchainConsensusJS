@@ -78,3 +78,8 @@ node example-pos.js
 ```shell
 node example-poa.js
 ```
+### Delegate Proof of Stake
+
+```shell
+node example-dpos.js
+```
